@@ -4,6 +4,9 @@ uvicorn[standard]>=0.29
 httpx>=0.27
 pydantic>=2.6
 
+# Database (MongoDB Atlas)
+pymongo>=4.6
+
 # Science (live mode). pycontrails pulls in xarray, pandas and numpy.
 # The [ecmwf] extra adds cdsapi for ERA5 downloads.
 numpy>=1.26
